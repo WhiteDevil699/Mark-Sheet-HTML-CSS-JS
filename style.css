@@ -1,0 +1,110 @@
+body{
+    border: 5px solid black;
+}
+.container{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+/* .btn{
+    /* display: flex; */
+    /* width: 250px;
+    height: 50px;
+    color: red;
+    font-size: 30px; */
+    /* background-color: lightgreen; */
+/* } */ 
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.btn{
+    display: flex;
+    justify-content: center;
+} 
+.sheet{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.heading{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    color: green;
+}
+h4{
+    display: flex;
+}
+.first_side{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 10px;
+    width: 50%;
+    padding: 10px;
+    height: 350px;
+    gap: 20px;
+}
+.second_side{
+    text-align: center;
+    border: 2px solid black;
+    margin-right: 10px;
+    width: 50%;
+    padding: 10px;
+    height: 350px;
+}
+.container2{
+    display: flex;
+    margin-bottom: 10px;
+}
+.hero{
+    text-align: center;
+    color: green;
+}
+.foot{
+    text-align: center;
+}
+.btnn{
+    display: flex;
+    justify-content: center;
+}

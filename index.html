@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+    <title>Mark Sheet</title>
+</head>
+<body>
+<marquee direction="right">Prepared by Hafiz-Wajeeh-Abdul-Rehman</marquee>
+<div class="container">
+    <h4>YOUR FULL NAME: <input type="text" id="fname" placeholder="USE CAPITAL LETTERS" required></h4> 
+    <h4>FATHER's NAME: <input type="text" id="faname" placeholder="USE CAPITAL LETTERS"></h4>
+    <select class="selection">
+        <option value="Null">Select</option>
+        <option value="SSC Part 1" id="s1">SSC Part 1</option>
+       </select>
+    <Section>
+        <h4>Subjects</h4>
+        <h5>English: <input type="number" placeholder="Marks" id="inp"></h5> 
+        <h5>Urdu: <input type="number" placeholder="Marks" id="inp1"></h5> 
+        <h5>Science: <input type="number" placeholder="Marks" id="inp2"></h5> 
+        <h5>Biology: <input type="number" placeholder="Marks" id="inp3"></h5> 
+        <h5>Pak-Studies: <input type="number" placeholder="Marks" id="inp4"></h5> 
+        <h5>Mathmatics: <input type="number" placeholder="Marks" id="inp5"></h5>
+    </Section>
+    <br> <br> <br>
+    <div class="btn">
+    <button id="btn" class="button" style="vertical-align:middle"><span>Generate</span></button>
+    </div>
+</div>
+<div class="sheet">
+    <div class="head">
+        <h1 class="heading">SINDH BOARD OF TECHINICAL EDUCATION KARACHI</h1>
+        <div class="logo">
+        <img src="" class="logo" alt="Logo here">
+     </div>
+     <h3>STATEMENT OF MARKS <br> DIPLOMA OF ASSOCIATE ENGINEER</h3>
+    </div>
+    <div class="details">
+    <h5>EXAMINATION: <span id="exam"></span></h5>
+    <h5>NAME OF CONDIDATE: <span id="cdname"></span></h5>
+    <h5>FATHER's NAME: <span id="cdfname"></span></h5> 
+    <h5>NAME OF BOARD: KARACHI BOARD</h5>
+    </div>
+</div>
+<h1 class="hero">Subjects</h1>
+<div class="container2">
+    <Section class="first_side">
+        <h5>English: <span id="output"></span>/100</h5> 
+        <h5>Urdu: <span id="output1"></span>/100</h5> 
+        <h5>Science: <span id="output2"></span>/100</h5> 
+    </Section>
+    <section class="second_side">
+        <h5>Biology: <span id="output3"></span>/100</h5> 
+        <h5>Pak-Studies: <span id="output4"></span>/75</h5> 
+        <h5>Mathmatics: <span id="output5"></span>/85</h5>
+    </section>
+</div> 
+<div class="footer">
+<h5 class="foot">Total Numbers: <span id="Getnumber"></span>/560</h5>
+</div>
+<script src="apps.js"></script>   
+</body>
+</html>
